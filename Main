@@ -2,7 +2,6 @@ local PCR_1 = Instance.new("ScreenGui")
 local TweenService = game:GetService('TweenService');
 local uis = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
-
 local function createInstance(class, props)
 	local inst = Instance.new(class)
 	for i, v in pairs(props) do
@@ -214,7 +213,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	local RESETALL = Instance.new('ImageButton')
 	RESETALL.Name = "RESETALL"
 	RESETALL.Parent = S13
-	RESETALL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	RESETALL.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	RESETALL.BackgroundTransparency = 1.000
 	RESETALL.BorderSizePixel = 0
 	RESETALL.Position = UDim2.new(0.621510208, 0, 0.730036497, 0)
@@ -236,7 +235,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 
 	ANIMATEFRAME01.Name = "ANIMATEFRAME01"
 	ANIMATEFRAME01.Parent = COLORPALLETE
-	ANIMATEFRAME01.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ANIMATEFRAME01.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	ANIMATEFRAME01.Position = UDim2.new(-0.0257352963, 0, -0.00666669384, 0)
 	ANIMATEFRAME01.Size = UDim2.new(0, 285, 0, 159)
 	ANIMATEFRAME01.ZIndex = 99
@@ -244,7 +243,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 
 	Holder.Name = "Holder"
 	Holder.Parent = COLORPALLETE
-	Holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Holder.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	Holder.BackgroundTransparency = 1.000
 	Holder.BorderSizePixel = 0
 	Holder.Size = UDim2.new(0, 283, 0, 157)
@@ -269,7 +268,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	ColourWheel.Parent = S12
 	ColourWheel.Active = false
 	ColourWheel.AnchorPoint = Vector2.new(0.5, 0.5)
-	ColourWheel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ColourWheel.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	ColourWheel.BackgroundTransparency = 1.000
 	ColourWheel.BorderSizePixel = 0
 	ColourWheel.Position = UDim2.new(0.418737918, 0, 0.491852999, 0)
@@ -284,7 +283,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	Picker.Name = "Picker"
 	Picker.Parent = ColourWheel
 	Picker.AnchorPoint = Vector2.new(0.5, 0.5)
-	Picker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Picker.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	Picker.BackgroundTransparency = 1.000
 	Picker.BorderSizePixel = 0
 	Picker.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -298,7 +297,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	DarknessPicker.Parent = S12
 	DarknessPicker.Active = false
 	DarknessPicker.AnchorPoint = Vector2.new(0.5, 0.5)
-	DarknessPicker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	DarknessPicker.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	DarknessPicker.BackgroundTransparency = 1.000
 	DarknessPicker.BorderSizePixel = 0
 	DarknessPicker.Position = UDim2.new(0.854536772, 0, 0.554580271, 0)
@@ -310,14 +309,14 @@ function OpenedColor(text,ColourDisplay,Action,def)
 	DarknessPicker.SliceCenter = Rect.new(100, 100, 100, 100)
 	DarknessPicker.SliceScale = 0.120
 
-	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(158, 62, 196)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
 	UIGradient.Rotation = 90
 	UIGradient.Parent = DarknessPicker
 
 	Slider.Name = "Slider"
 	Slider.Parent = DarknessPicker
 	Slider.AnchorPoint = Vector2.new(0.5, 0.5)
-	Slider.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Slider.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	Slider.BackgroundTransparency = 1.000
 	Slider.BorderSizePixel = 0
 	Slider.Position = UDim2.new(0.491197795, 0, 0.0733607039, 0)
@@ -345,7 +344,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 
 	ColourDisplayBIG.Name = "ColourDisplayBIG"
 	ColourDisplayBIG.Parent = S13
-	ColourDisplayBIG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ColourDisplayBIG.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	ColourDisplayBIG.BackgroundTransparency = 1.000
 	ColourDisplayBIG.BorderSizePixel = 0
 	ColourDisplayBIG.Position = UDim2.new(0.255401969, 0, 0.159329623, 0)
@@ -361,7 +360,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 
 	SETCOLOR.Name = "SETCOLOR"
 	SETCOLOR.Parent = S13
-	SETCOLOR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	SETCOLOR.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	SETCOLOR.BackgroundTransparency = 1.000
 	SETCOLOR.BorderSizePixel = 0
 	SETCOLOR.Position = UDim2.new(0.231911927, 0, 0.730036736, 0)
@@ -371,7 +370,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 
 	Upper.Name = "Upper"
 	Upper.Parent = Holder
-	Upper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Upper.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	Upper.BackgroundTransparency = 1.000
 	Upper.BorderColor3 = Color3.fromRGB(158, 62, 196)
 	Upper.BorderSizePixel = 0
@@ -381,7 +380,7 @@ function OpenedColor(text,ColourDisplay,Action,def)
 
 	TEMPLATETITLE20202.Name = "TEMPLATETITLE20202"
 	TEMPLATETITLE20202.Parent = Upper
-	TEMPLATETITLE20202.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TEMPLATETITLE20202.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	TEMPLATETITLE20202.BackgroundTransparency = 1.000
 	TEMPLATETITLE20202.BorderSizePixel = 0
 	TEMPLATETITLE20202.Position = UDim2.new(0.00999999978, 0, 0.217391297, 0)
@@ -578,7 +577,7 @@ BG.ClipsDescendants = true
 
 Upper.Name = "Upper"
 Upper.Parent = MAIN
-Upper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Upper.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 Upper.BackgroundTransparency = 1.000
 Upper.BorderColor3 = Color3.fromRGB(158, 62, 196)
 Upper.BorderSizePixel = 0
@@ -613,7 +612,7 @@ DOWNER.ZIndex = 2
 WEBSITE.Name = "WEBSITE"
 WEBSITE.Parent = DOWNER
 WEBSITE.AnchorPoint = Vector2.new(0.5, 0.5)
-WEBSITE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WEBSITE.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 WEBSITE.BackgroundTransparency = 1.000
 WEBSITE.BorderSizePixel = 0
 WEBSITE.Position = UDim2.new(0.177174687, 0, 0.499190629, 0)
@@ -628,7 +627,7 @@ WEBSITE.TextXAlignment = Enum.TextXAlignment.Left
 LABEL2.Name = "LABEL2"
 LABEL2.Parent = DOWNER
 LABEL2.AnchorPoint = Vector2.new(0.5, 0.5)
-LABEL2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LABEL2.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 LABEL2.BackgroundTransparency = 1.000
 LABEL2.BorderSizePixel = 0
 LABEL2.Position = UDim2.new(0.795508027, 0, 0.455712378, 0)
@@ -652,7 +651,7 @@ linedecoDOWNER.ZIndex = 10
 UPPERLABEL.Name = "UPPERLABEL"
 UPPERLABEL.Parent = MAIN
 UPPERLABEL.AnchorPoint = Vector2.new(0.5, 0.5)
-UPPERLABEL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UPPERLABEL.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 UPPERLABEL.BackgroundTransparency = 1.000
 UPPERLABEL.BorderSizePixel = 0
 UPPERLABEL.Position = UDim2.new(0.906523705, 0, 0.0267967135, 0)
@@ -666,7 +665,7 @@ UPPERLABEL.TextXAlignment = Enum.TextXAlignment.Right
 
 limit1.Name = "limit1"
 limit1.Parent = MAIN
-limit1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+limit1.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 limit1.BackgroundTransparency = 1.000
 limit1.BorderSizePixel = 0
 limit1.Position = UDim2.new(0, 0, 0.0615355708, 0)
@@ -709,7 +708,7 @@ function AddRipple(button,ael,ayo)
 				local Circle = Instance.new("ImageLabel")
 				Circle.Name = "Circle"
 				Circle.Parent = obj
-				Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Circle.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 				Circle.BackgroundTransparency = 1.000
 				Circle.ZIndex = 10
 				Circle.Image = "rbxassetid://266543268"
@@ -746,7 +745,7 @@ function AddRipple(button,ael,ayo)
 	Background.Name = "Background"
 	Background.Parent = button
 	Background.AnchorPoint = Vector2.new(0.5, 0.5)
-	Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Background.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	Background.BackgroundTransparency = 1.000
 	Background.ClipsDescendants = true
 	Background.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -948,7 +947,7 @@ function library:AddWindow(text)
 
 	TEMPLATE_TEXT.Name = text
 	TEMPLATE_TEXT.Parent = Upper
-	TEMPLATE_TEXT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TEMPLATE_TEXT.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	TEMPLATE_TEXT.BackgroundTransparency = 1.000
 	TEMPLATE_TEXT.BorderSizePixel = 0
 	TEMPLATE_TEXT.Position = UDim2.new(0, 0, 0.281214178, 0)
@@ -964,7 +963,7 @@ function library:AddWindow(text)
 	HOLDER.Name = text
 	HOLDER.Parent = limit1
 	HOLDER.Active = true
-	HOLDER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	HOLDER.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	HOLDER.BackgroundTransparency = 1.000
 	HOLDER.BorderSizePixel = 0
 	HOLDER.ClipsDescendants = false
@@ -979,7 +978,7 @@ function library:AddWindow(text)
 	_LEFT.Name = "_LEFT"
 	_LEFT.Parent = HOLDER
 	_LEFT.AnchorPoint = Vector2.new(0.5, 0.5)
-	_LEFT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	_LEFT.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	_LEFT.BackgroundTransparency = 1.000
 	_LEFT.BorderSizePixel = 0
 	_LEFT.Position = UDim2.new(0.249334633, 0, 0.508299172, 0)
@@ -996,7 +995,7 @@ function library:AddWindow(text)
 	_RIGHT.Name = "_RIGHT"
 	_RIGHT.Parent = HOLDER
 	_RIGHT.AnchorPoint = Vector2.new(0.5, 0.5)   
-	_RIGHT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	_RIGHT.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 	_RIGHT.BackgroundTransparency = 1.000
 	_RIGHT.BorderSizePixel = 0
 	_RIGHT.Position = UDim2.new(0.749334514, 0, 0.508299172, 0)
@@ -1177,7 +1176,7 @@ function library:AddWindow(text)
 
 		HOLDER_2.Name = "HOLDER"
 		HOLDER_2.Parent = Z_Holder
-		HOLDER_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		HOLDER_2.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 		HOLDER_2.BackgroundTransparency = 1.000
 		HOLDER_2.Position = UDim2.new(0, 4, 0, 5)
 		HOLDER_2.Size = UDim2.new(0.981999993, 0, 0.957000017, 0)   
@@ -1201,7 +1200,7 @@ function library:AddWindow(text)
 		A_label.Name = "A_label"
 		A_label.Parent = Section
 		A_label.AnchorPoint = Vector2.new(0.5, 0.5)
-		A_label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)  
+		A_label.BackgroundColor3 = Color3.fromRGB(158, 62, 196)  
 		A_label.BackgroundTransparency = 1.000
 		A_label.BorderSizePixel = 0
 		A_label.Position = UDim2.new(0.512401581, 0, 0.0548184477, 0)
@@ -1424,7 +1423,7 @@ function library:AddWindow(text)
 
 			obj4.Name = "pcntage"
 			obj4.Parent = obj1
-			obj4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			obj4.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 			obj4.BackgroundTransparency = 1.000
 			obj4.BorderSizePixel = 0
 			obj4.Position = UDim2.new(0.79838711, 0, 0, 0)
@@ -1541,7 +1540,7 @@ function library:AddWindow(text)
 
 				Value = ((((tonumber(Max) - tonumber(Min)) / 244) * obj6.AbsoluteSize.X) + tonumber(Min)) or 0
 				Value = (Value)
-				TweenService:Create(obj4, TweenInfo.new(0.3, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), {TextColor3 = Color3.fromRGB(255, 255, 255)}):Play()
+				TweenService:Create(obj4, TweenInfo.new(0.3, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), {TextColor3 = Color3.fromRGB(158, 62, 196)}):Play()
 
 				obj6.Size = UDim2.new(0, math.clamp(mouse.X - obj6.AbsolutePosition.X, 0, 244), 0, 13)
 				moveconnection = mouse.Move:Connect(function()
@@ -1592,7 +1591,7 @@ function library:AddWindow(text)
 			TextLabel.Parent = HOLDER_2
 			TextLabel.AutomaticSize =Enum.AutomaticSize.Y
 
-			TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			TextLabel.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 			TextLabel.BackgroundTransparency = 1.000
 			TextLabel.BorderSizePixel = 0
 			TextLabel.Position = UDim2.new(0.0329693519, 0, 0, 0)
@@ -1658,7 +1657,7 @@ function library:AddWindow(text)
 			UIStroke.Transparency = 0;
 			UIStroke.Name = 'UIStroke';
 
-			UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(180, 180, 180))}
+			UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(158, 62, 196)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(180, 180, 180))}
 			UIGradient.Parent = UIStroke
 
 			local function Update()
@@ -1685,7 +1684,7 @@ function library:AddWindow(text)
 
 			TemplateToggle.Name = "TemplateToggle"
 			TemplateToggle.Parent = HOLDER_2
-			TemplateToggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			TemplateToggle.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 			TemplateToggle.BackgroundTransparency = 1.000
 			TemplateToggle.BorderSizePixel = 0
 			TemplateToggle.Position = UDim2.new(0.155858055, 0, 0.392140955, 0)
@@ -1693,7 +1692,7 @@ function library:AddWindow(text)
 			TemplateToggle.ZIndex = 14
 
 			TextLabel.Parent = TemplateToggle
-			TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			TextLabel.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 			TextLabel.BackgroundTransparency = 1.000
 			TextLabel.BorderSizePixel = 0
 			TextLabel.Position = UDim2.new(0.0833906233, 0, 0.0133694736, 0)
@@ -1707,7 +1706,7 @@ function library:AddWindow(text)
 
 			Interactive.Name = "Interactive"
 			Interactive.Parent = TemplateToggle
-			Interactive.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Interactive.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 			Interactive.BackgroundTransparency = 1.000
 			Interactive.BorderSizePixel = 0
 			Interactive.Position = UDim2.new(-0.0240641702, 0, 0, 0)
@@ -1747,7 +1746,7 @@ function library:AddWindow(text)
 			else
 				KeyButton.Text ='. . .'
 			end
-			KeyButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+			KeyButton.TextColor3 = Color3.fromRGB(158, 62, 196)
 			KeyButton.TextSize = 10.000
 			KeyButton.TextStrokeColor3 = Color3.fromRGB(45, 45, 45)
 
@@ -1873,7 +1872,7 @@ function library:AddWindow(text)
 			OPENCLOSE.AutoButtonColor = false
 			OPENCLOSE.Font = Enum.Font.SourceSansSemibold
 			OPENCLOSE.Text = Text
-			OPENCLOSE.TextColor3 = Color3.fromRGB(255, 255, 255)
+			OPENCLOSE.TextColor3 = Color3.fromRGB(158, 62, 196)
 			OPENCLOSE.TextSize = 16.000
 			OPENCLOSE.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1919,7 +1918,7 @@ function library:AddWindow(text)
 
 			TemplateKBIND.Name = "TemplateKBIND"
 			TemplateKBIND.Parent = HOLDER_2
-			TemplateKBIND.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			TemplateKBIND.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 			TemplateKBIND.BackgroundTransparency = 1.000
 			TemplateKBIND.BorderSizePixel = 0
 			TemplateKBIND.Position = UDim2.new(0.155858055, 0, 0.392140955, 0)
@@ -1927,7 +1926,7 @@ function library:AddWindow(text)
 			TemplateKBIND.ZIndex = 14
 
 			TextLabel.Parent = TemplateKBIND
-			TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			TextLabel.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 			TextLabel.BackgroundTransparency = 1.000
 			TextLabel.BorderSizePixel = 0
 			TextLabel.Position = UDim2.new(-0.0121270986, 0, 0.0133694736, 0)
@@ -1941,7 +1940,7 @@ function library:AddWindow(text)
 
 			Interactive.Name = "Interactive"
 			Interactive.Parent = TemplateKBIND
-			Interactive.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Interactive.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 			Interactive.BackgroundTransparency = 1.000
 			Interactive.BorderSizePixel = 0
 			Interactive.Position = UDim2.new(-0.0240641963, 0, 0, 0)
@@ -1964,7 +1963,7 @@ function library:AddWindow(text)
 			KeyButton.AutoButtonColor = false
 			KeyButton.Font = Enum.Font.ArialBold
 			KeyButton.Text = KeyCode.Name
-			KeyButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+			KeyButton.TextColor3 = Color3.fromRGB(158, 62, 196)
 			KeyButton.TextSize = 10.000
 			KeyButton.TextStrokeColor3 = Color3.fromRGB(45, 45, 45)
 
@@ -2054,7 +2053,7 @@ function library:AddWindow(text)
 			Toggle.AutoButtonColor = false
 			Toggle.Font = Enum.Font.SourceSansSemibold
 			Toggle.Text = "  "
-			Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Toggle.TextColor3 = Color3.fromRGB(158, 62, 196)
 			Toggle.TextSize = 16.000
 
 			_456fg.CornerRadius = UDim.new(0, 4)
@@ -2063,7 +2062,7 @@ function library:AddWindow(text)
 
 			TextLabel.Parent = Toggle
 			TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-			TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			TextLabel.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 			TextLabel.BackgroundTransparency = 1.000
 			TextLabel.BorderSizePixel = 0
 			TextLabel.Position = UDim2.new(0.44808808, 0, 0.454545468, 0)
@@ -2077,7 +2076,7 @@ function library:AddWindow(text)
 
 			TextLabel_2.Parent = Toggle
 			TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
-			TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			TextLabel_2.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 			TextLabel_2.BackgroundTransparency = 1.000
 			TextLabel_2.BorderSizePixel = 0
 			TextLabel_2.Position = UDim2.new(0.91685158, 0, 0.550000012, 0)
@@ -2085,7 +2084,7 @@ function library:AddWindow(text)
 			TextLabel_2.ZIndex = 30
 			TextLabel_2.Font = Enum.Font.SourceSansSemibold
 			TextLabel_2.Text = "+"
-			TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+			TextLabel_2.TextColor3 = Color3.fromRGB(158, 62, 196)
 			TextLabel_2.TextSize = 16.000
 			TextLabel_2.TextXAlignment = Enum.TextXAlignment.Right
 
@@ -2109,7 +2108,7 @@ function library:AddWindow(text)
 				OPTION.AutoButtonColor = false
 				OPTION.Font = Enum.Font.SourceSansSemibold
 				OPTION.Text = ''
-				OPTION.TextColor3 = Color3.fromRGB(255, 255, 255)
+				OPTION.TextColor3 = Color3.fromRGB(158, 62, 196)
 				OPTION.TextSize = 16.000
 
 				_456fg_2.CornerRadius = UDim.new(0, 4)
@@ -2118,14 +2117,14 @@ function library:AddWindow(text)
 
 				TextLabel_3.Parent = OPTION
 				TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
-				TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				TextLabel_3.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 				TextLabel_3.BackgroundTransparency = 1.000
 				TextLabel_3.BorderSizePixel = 0
 				TextLabel_3.Position = UDim2.new(0.501999259, 0, 0.441162109, 0)
 				TextLabel_3.Size = UDim2.new(0, 125, 0, 15)
 				TextLabel_3.Font = Enum.Font.SourceSansSemibold
 				TextLabel_3.Text = v
-				TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+				TextLabel_3.TextColor3 = Color3.fromRGB(158, 62, 196)
 				TextLabel_3.TextSize = 15.000
 
 				if sel == v and v ~= Toggle.Text then
@@ -2205,7 +2204,7 @@ function library:AddWindow(text)
 			TemplateButton.ZIndex = 14
 			TemplateButton.ClipsDescendants = true
 			TextLabel.Parent = TemplateButton
-			TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			TextLabel.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 			TextLabel.BackgroundTransparency = 1.000
 			TextLabel.BorderSizePixel = 0
 			TextLabel.Position = UDim2.new(0, 0, 0, 0)
@@ -2218,7 +2217,7 @@ function library:AddWindow(text)
 
 			Interactive.Name = "Interactive"
 			Interactive.Parent = TemplateButton
-			Interactive.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Interactive.BackgroundColor3 = Color3.fromRGB(158, 62, 196)
 			Interactive.BackgroundTransparency = 1.000
 			Interactive.BorderSizePixel = 0
 			Interactive.Position = UDim2.new(0, 0, 0, 0)
@@ -2241,7 +2240,7 @@ function library:AddWindow(text)
 			UIStroke.Transparency = 0;
 			UIStroke.Name = 'UIStroke';
 
-			UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(180, 180, 180))}
+			UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(158, 62, 196)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(180, 180, 180))}
 			UIGradient.Parent = UIStroke
 
 			Interactive.MouseButton1Click:Connect(function()
